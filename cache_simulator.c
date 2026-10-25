@@ -17,6 +17,7 @@ int main(){
         cache[i].valid=0;
         cache[i].tag=0;
     }
+    // address calculation
     int address=20;
     int block_number=address/4;
     int index=block_number%4;
